@@ -84,6 +84,7 @@ test:
 #
 production:
   <<: *default
-  database: tunr2_backend_production
-  username: tunr2_backend
-  password: <%= ENV['TUNR2_BACKEND_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
+  # database: tunr2_backend_production
+  # username: tunr2_backend
+  # password: <%= ENV['TUNR2_BACKEND_DATABASE_PASSWORD'] %>
