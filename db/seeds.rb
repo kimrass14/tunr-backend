@@ -12,5 +12,5 @@ Song.create([
     { artist: "Aloe Blacc", title: "All Love Everything", time: "2:27" },
     { artist: "Sam Smith", title: "Kids Again", time: "3:27" },
     { artist: "Sia", title: "Courage to Change", time: "4:52" },
-    { artist: "John K", title: "parachute", time: "2:36" },
+    { artist: "John K", title: "parachute", time: "2:36" }
 ])
