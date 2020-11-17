@@ -14,6 +14,22 @@ class SongsController < ApplicationController
   end
 
   # POST /songs
+  # def create
+  #   @user = User.find(params[:user_id])
+  #   @song = @user.songs.new(song_params)
+
+  #   if @song.save
+  #     render json: @song, status: :created, location: @song
+  #   else
+  #     render json: @song.errors, status: :unprocessable_entity
+  #   end
+    # if @song.save
+    #   redirect_to user_path(@user)
+    # else
+    #   render :new
+    # end
+  # end
+
   def create
     @song = Song.new(song_params)
 
