@@ -14,3 +14,10 @@ Song.create([
     { artist: "Sia", title: "Courage to Change", time: "4:52" },
     { artist: "John K", title: "parachute", time: "2:36" }
 ])
+
+User.create([
+    {name: "Kim"},
+    {name: "Sean"},
+    {name: "Sam"},
+    {name: "Boyan"}
+])
